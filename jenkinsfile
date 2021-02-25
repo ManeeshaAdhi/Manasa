@@ -1,10 +1,6 @@
 pipeline{
      agent any
-       tools{
-              jdk "java-1.8"
-              maven "maven-3.6.3"
-       }
-      stages{
+     stages{
              stage("clone"){
                 steps{
                        git url: 'https://github.com/ManeeshaAdhi/Manasa.git'
