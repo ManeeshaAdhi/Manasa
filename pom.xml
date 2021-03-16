@@ -29,13 +29,16 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	         <url>https://maneeshaartifact.jfrog.io/artifactory/manisha-repository</url>
          </repository>
  </distributionManagement>
- <build>	 
-   <plugins>
-       <plugin>
+
+ <build>
+     <plugins>
+
+        <plugin>
+
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>3.0.0-M1</version>
        </plugin>
-  </plugins>
+   </plugins>
  </build>
 </project>	  
