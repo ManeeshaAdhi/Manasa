@@ -28,7 +28,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	         <name>central</name>
 	         <url>https://maneeshaartifact.jfrog.io/artifactory/manisha-repository</url>
          </repository>
- </distributionManagement>
+</distributionManagement>
 <plugins>
 <plugin>
      <groupId>org.apache.maven.plugins</groupId>
